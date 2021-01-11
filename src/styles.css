@@ -13,6 +13,15 @@ h5 {
   font-size: 35px;
 }
 
+h6 {
+  font-family: "Castoro", serif;
+  color: blueviolet;
+  font-weight: bold;
+  text-align: center;
+  font-size: 10px;
+  left: 200px;
+  bottom: 0.5px;
+}
 .box {
   color: #1d035a;
   position: fixed;
