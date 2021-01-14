@@ -2,6 +2,11 @@ img {
   size: 500px;
 }
 
+.weather-app {
+  max-width: 600px;
+  margin: 0;
+}
+
 h5 {
   display: block;
   margin: 0;
