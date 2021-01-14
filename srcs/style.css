@@ -30,7 +30,6 @@ h6 {
 .box {
   display: block;
   color: #1d035a;
-  position: fixed;
   top: 280px;
   text-align: left;
 }
