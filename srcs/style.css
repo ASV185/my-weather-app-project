@@ -28,7 +28,6 @@ h6 {
   position: fixed;
 }
 .box {
-  display: block;
   color: #1d035a;
   top: 280px;
   text-align: left;
@@ -38,13 +37,11 @@ h6 {
 .row {
   opacity: 0.9;
   border-radius: 20px;
-  display: block;
   text-align: left;
 }
 
 .card {
   background-color: #2782bb;
-  display: block;
   text-align: left;
 }
 
