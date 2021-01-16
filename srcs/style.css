@@ -40,6 +40,8 @@ h6 {
   opacity: 0.9;
   border-radius: 20px;
   text-align: left;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .card {
