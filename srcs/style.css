@@ -4,6 +4,8 @@ img {
 
 .weather-app {
   max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 h5 {
