@@ -1,7 +1,7 @@
 img {
   size: 500px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 h5 {
@@ -12,7 +12,7 @@ h5 {
   font-weight: bolder;
   text-align: center;
   margin: 20px auto;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 h6 {
@@ -20,7 +20,7 @@ h6 {
   color: blueviolet;
   font-weight: bold;
   text-align: right;
-  font-size: 20px;
+  font-size: 10px;
   right: 150px;
   bottom: 5px;
   position: fixed;
@@ -60,7 +60,7 @@ h1 {
   position: fixed;
   top: 65px;
   padding: 20px;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .units {
@@ -68,7 +68,7 @@ h1 {
   margin: 0;
   text-align: center;
   color: rgb(4, 4, 231);
-  font-size: 70px;
+  font-size: 60px;
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
@@ -84,7 +84,7 @@ h1 {
   color: #1375b3;
   margin: 20px;
   padding: 80px auto;
-  font-size: 50px;
+  font-size: 40px;
   bottom: 30px;
   font-family: "Castoro", serif;
   font-weight: 900px;
@@ -101,7 +101,7 @@ h1 {
   color: #1375b3;
   margin: 20px;
   padding: 80px auto;
-  font-size: 50px;
+  font-size: 40px;
   bottom: 30px;
   font-family: "Castoro", serif;
   font-weight: 900px;
@@ -118,7 +118,7 @@ h1 {
   text-align: right;
   margin: 20px;
   padding: 80px auto;
-  font-size: 55px;
+  font-size: 45px;
   bottom: 30px;
   font-family: "Castoro", serif;
   font-weight: 150px;
@@ -134,7 +134,7 @@ p {
   font-family: "Anton", sans-serif;
   font-family: "Castoro", serif;
   font-weight: 900px;
-  font-size: 35px;
+  font-size: 25px;
   text-align: center;
   margin: 20px auto;
   color: white;
@@ -148,7 +148,7 @@ h4 {
   left: 160px;
   bottom: 0.5px;
   padding: 30px;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -159,7 +159,7 @@ li {
   color: white;
   font-family: "Castoro", serif;
   position: fixed;
-  font-size: 35px;
+  font-size: 25px;
   opacity: 1;
   top: 150px;
   left: 170px;
@@ -171,7 +171,7 @@ i {
   margin: 0;
   text-align: center;
   color: rgb(4, 4, 231);
-  font-size: 90px;
+  font-size: 80px;
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
@@ -185,7 +185,7 @@ i {
   margin: 0;
   text-align: center;
   color: rgb(4, 4, 231);
-  font-size: 85px;
+  font-size: 75px;
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
@@ -199,7 +199,7 @@ i {
   margin: 0;
   text-align: center;
   color: rgb(4, 4, 231);
-  font-size: 75px;
+  font-size: 65px;
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
@@ -216,7 +216,7 @@ i {
   font-family: "Castoro", serif;
   top: 210px;
   left: 165px;
-  font-size: 23px;
+  font-size: 13px;
   font-weight: bold;
   color: blue;
 }
