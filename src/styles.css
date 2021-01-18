@@ -67,7 +67,7 @@ h1 {
   display: block;
   margin: 0;
   text-align: center;
-  color: rgb(4, 4, 231);
+  color: black;
   font-size: 50px;
   font-family: "Castoro", serif;
   font-weight: bold;
@@ -91,7 +91,7 @@ h1 {
   opacity: 1;
   top: 20px;
   position: fixed;
-  left: 600px;
+  left: 650px;
 }
 
 .wind {
@@ -108,7 +108,7 @@ h1 {
   opacity: 1;
   top: 70px;
   position: fixed;
-  left: 700px;
+  left: 650px;
 }
 
 .description {
@@ -142,7 +142,7 @@ p {
 }
 
 h4 {
-  color: navy;
+  color: black;
   font-family: "Castoro", serif;
   position: fixed;
   left: 160px;
@@ -184,7 +184,7 @@ i {
   display: block;
   margin: 0;
   text-align: center;
-  color: rgb(4, 4, 231);
+  color: black;
   font-size: 75px;
   font-family: "Castoro", serif;
   font-weight: bold;
@@ -218,5 +218,5 @@ i {
   left: 165px;
   font-size: 23px;
   font-weight: bold;
-  color: blue;
+  color: black;
 }
