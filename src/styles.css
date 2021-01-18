@@ -24,6 +24,7 @@ h6 {
   right: 60px;
   bottom: 5px;
   position: fixed;
+  text-decoration: none;
 }
 .box {
   color: black;
@@ -150,7 +151,7 @@ h4 {
   padding: 30px;
   font-size: 20px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 li {
@@ -192,6 +193,7 @@ i {
   top: 23px;
   left: 450px;
   position: fixed;
+  text-decoration: none;
 }
 
 .units {
