@@ -20,7 +20,7 @@ h6 {
   color: blueviolet;
   font-weight: bold;
   text-align: right;
-  font-size: 10px;
+  font-size: 20px;
   right: 150px;
   bottom: 5px;
   position: fixed;
@@ -148,7 +148,7 @@ h4 {
   left: 160px;
   bottom: 0.5px;
   padding: 30px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -216,7 +216,7 @@ i {
   font-family: "Castoro", serif;
   top: 210px;
   left: 165px;
-  font-size: 13px;
+  font-size: 23px;
   font-weight: bold;
   color: blue;
 }
