@@ -81,24 +81,24 @@ h1 {
   display: block;
   margin: 0;
   text-align: right;
-  color: #1375b3;
+  color: black;
   margin: 20px;
   padding: 80px auto;
-  font-size: 40px;
+  font-size: 35px;
   bottom: 30px;
   font-family: "Castoro", serif;
   font-weight: 900px;
   opacity: 1;
   top: 20px;
   position: fixed;
-  left: 700px;
+  left: 600px;
 }
 
 .wind {
   display: block;
   margin: 0;
   text-align: right;
-  color: #1375b3;
+  color: black;
   margin: 20px;
   padding: 80px auto;
   font-size: 40px;
@@ -170,7 +170,7 @@ i {
   display: block;
   margin: 0;
   text-align: center;
-  color: rgb(4, 4, 231);
+  color: black;
   font-size: 80px;
   font-family: "Castoro", serif;
   font-weight: bold;
@@ -198,7 +198,7 @@ i {
   display: block;
   margin: 0;
   text-align: center;
-  color: rgb(4, 4, 231);
+  color: black;
   font-size: 50px;
   font-family: "Castoro", serif;
   font-weight: bold;
