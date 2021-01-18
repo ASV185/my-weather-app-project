@@ -21,7 +21,7 @@ h6 {
   font-weight: bold;
   text-align: right;
   font-size: 20px;
-  right: 80px;
+  right: 60px;
   bottom: 5px;
   position: fixed;
 }
@@ -125,7 +125,7 @@ h1 {
   opacity: 1;
   top: 160px;
   position: fixed;
-  left: 850px;
+  left: 750px;
 }
 
 p {
