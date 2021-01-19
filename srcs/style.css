@@ -56,7 +56,6 @@ h1 {
 
 .humidity {
   display: block;
-  margin: 0;
   color: navy;
   text-align: right;
   margin: 20px;
@@ -137,7 +136,7 @@ h4 {
   font-family: "Castoro", serif;
   position: fixed;
   left: 160px;
-  bottom: 2px;
+  bottom: 5px;
   padding: 30px;
   font-size: 25px;
   font-weight: bold;
@@ -164,7 +163,7 @@ li {
   font-family: "Anton", sans-serif;
   font-family: "Castoro", serif;
   top: 210px;
-  left: 170px;
+  left: 165px;
   font-size: 23px;
   font-weight: bold;
 }

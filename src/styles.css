@@ -1,7 +1,12 @@
 img {
   size: 500px;
-  padding: 20px;
   border-radius: 30px;
+}
+
+.weather-app {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 h6 {
@@ -10,10 +15,9 @@ h6 {
   font-weight: bold;
   text-align: right;
   font-size: 20px;
-  right: 60px;
-  bottom: 5px;
+  right: 150px;
+  bottom: 30px;
   position: fixed;
-  text-decoration: none;
 }
 
 form {
@@ -33,24 +37,23 @@ h1 {
   position: fixed;
   top: 65px;
   padding: 20px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .humidity {
   display: block;
-  margin: 0;
   text-align: right;
   color: black;
   margin: 20px;
   padding: 80px auto;
-  font-size: 35px;
+  font-size: 45px;
   bottom: 30px;
   font-family: "Castoro", serif;
-  font-weight: 900px;
+  font-weight: 800px;
   opacity: 1;
   top: 20px;
   position: fixed;
-  left: 650px;
+  left: 800px;
 }
 
 .wind {
@@ -60,14 +63,14 @@ h1 {
   color: black;
   margin: 20px;
   padding: 80px auto;
-  font-size: 40px;
+  font-size: 45px;
   bottom: 30px;
   font-family: "Castoro", serif;
-  font-weight: 900px;
+  font-weight: 800px;
   opacity: 1;
   top: 70px;
   position: fixed;
-  left: 650px;
+  left: 800px;
 }
 
 .description {
@@ -77,14 +80,14 @@ h1 {
   text-align: right;
   margin: 20px;
   padding: 80px auto;
-  font-size: 45px;
+  font-size: 55px;
   bottom: 30px;
   font-family: "Castoro", serif;
   font-weight: 150px;
   opacity: 1;
   top: 160px;
   position: fixed;
-  left: 750px;
+  left: 850px;
 }
 
 p {
@@ -93,7 +96,7 @@ p {
   font-family: "Anton", sans-serif;
   font-family: "Castoro", serif;
   font-weight: 900px;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   margin: 20px auto;
   color: white;
@@ -105,9 +108,9 @@ h4 {
   font-family: "Castoro", serif;
   position: fixed;
   left: 160px;
-  bottom: 0.5px;
+  bottom: 5px;
   padding: 30px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -118,28 +121,28 @@ li {
   color: white;
   font-family: "Castoro", serif;
   position: fixed;
-  font-size: 25px;
+  font-size: 40px;
   opacity: 1;
   top: 150px;
-  left: 170px;
+  left: 165px;
   font-weight: bold;
 }
 
-i {
+.temperature {
   display: block;
   margin: 0;
   text-align: center;
   color: black;
-  font-size: 80px;
+  font-size: 85px;
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
-  top: 130px;
+  top: 20px;
+  left: 460px;
   position: fixed;
-  left: 530px;
 }
 
-.temperature {
+.units {
   display: block;
   margin: 0;
   text-align: center;
@@ -148,23 +151,8 @@ i {
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
-  top: 23px;
-  left: 450px;
-  position: fixed;
-  text-decoration: none;
-}
-
-.units {
-  display: block;
-  margin: 0;
-  text-align: center;
-  color: black;
-  font-size: 50px;
-  font-family: "Castoro", serif;
-  font-weight: bold;
-  opacity: 1;
   top: 20px;
-  left: 500px;
+  left: 550px;
   position: fixed;
 }
 
