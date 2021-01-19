@@ -78,7 +78,7 @@ h1 {
   display: block;
   margin: 0;
   text-align: center;
-  color: #2782bb;
+  color: navy;
   font-size: 85px;
   font-family: "Castoro", serif;
   font-weight: bold;
@@ -91,7 +91,7 @@ h1 {
 .humidity {
   display: block;
   margin: 0;
-  color: #2782bb;
+  color: navy;
   text-align: right;
   margin: 20px;
   padding: 80px auto;
@@ -108,7 +108,7 @@ h1 {
 .wind {
   display: block;
   margin: 0;
-  color: #2782bb;
+  color: navy;
   text-align: right;
   margin: 20px;
   padding: 80px auto;
