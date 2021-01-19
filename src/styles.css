@@ -43,7 +43,7 @@ h1 {
 .humidity {
   display: block;
   text-align: right;
-  color: black;
+  color: rgb(41, 37, 37);
   margin: 20px;
   padding: 80px auto;
   font-size: 45px;
@@ -60,7 +60,7 @@ h1 {
   display: block;
   margin: 0;
   text-align: right;
-  color: black;
+  color: rgb(41, 37, 37);
   margin: 20px;
   padding: 80px auto;
   font-size: 45px;
@@ -132,7 +132,7 @@ li {
   display: block;
   margin: 0;
   text-align: center;
-  color: black;
+  color: blueviolet;
   font-size: 85px;
   font-family: "Castoro", serif;
   font-weight: bold;
