@@ -11,6 +11,9 @@ img {
   opacity: 1px;
 }
 
+.night {
+  top: 30px;
+}
 .plain {
   bottom: 500px;
   opacity: 1px;
