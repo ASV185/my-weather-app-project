@@ -153,6 +153,7 @@ li {
   top: 20px;
   left: 460px;
   position: fixed;
+  text-shadow: 2px 2px 2px black;
 }
 
 .units {
@@ -167,6 +168,7 @@ li {
   top: 20px;
   left: 550px;
   position: fixed;
+  text-shadow: 2px 2px 2px black;
 }
 
 .container span button {
