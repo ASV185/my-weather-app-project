@@ -38,6 +38,7 @@ h1 {
   top: 65px;
   padding: 20px;
   font-size: 50px;
+  text-shadow: 2px 2px 2px white;
 }
 
 .temperature {
@@ -68,6 +69,7 @@ h1 {
   top: 20px;
   position: fixed;
   left: 800px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .wind {
@@ -85,6 +87,7 @@ h1 {
   top: 70px;
   position: fixed;
   left: 800px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .description {
@@ -156,6 +159,7 @@ li {
   top: 150px;
   left: 165px;
   font-weight: bold;
+  text-shadow: 2px 2px 2px black;
 }
 
 .container span button {
