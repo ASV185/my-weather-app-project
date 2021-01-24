@@ -102,6 +102,7 @@ h1 {
   top: 160px;
   position: fixed;
   left: 950px;
+  text-transform: capitalize;
 }
 
 p {
