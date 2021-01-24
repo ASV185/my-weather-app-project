@@ -103,6 +103,7 @@ h1 {
   position: fixed;
   left: 700px;
   text-transform: capitalize;
+  text-shadow: 10px;
 }
 
 p {
