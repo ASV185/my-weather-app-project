@@ -188,3 +188,12 @@ li {
   font-weight: bold;
   text-shadow: 2px 2px 2px black;
 }
+
+span.active {
+  color: black;
+  cursor: default;
+}
+
+span.active:hover {
+  text-decoration: none;
+}
