@@ -185,11 +185,11 @@ li {
   text-shadow: 2px 2px 2px black;
 }
 
-.active {
+a .active {
   color: black;
   cursor: default;
 }
 
-.active:hover {
+a .active:hover {
   text-decoration: none;
 }
