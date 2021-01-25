@@ -184,3 +184,12 @@ li {
   color: white;
   text-shadow: 2px 2px 2px black;
 }
+
+.active {
+  color: black;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+}
