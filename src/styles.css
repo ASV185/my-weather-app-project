@@ -46,9 +46,9 @@ h3 {
   margin: 0;
   position: fixed;
   opacity: 1;
-  color: black;
+  color: orangered;
   font-size: 150px;
-  top: 130px;
+  top: 100px;
   left: 450px;
   text-shadow: 2px 2px 2px black;
 }
