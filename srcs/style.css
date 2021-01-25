@@ -20,6 +20,14 @@ h6 {
   position: fixed;
 }
 
+h3 {
+  color: gray;
+  font-size: 20px;
+  top: 25px;
+  left: 450px;
+  text-shadow: 2px 2px 2px gray;
+}
+
 form {
   position: fixed;
   top: 20px;
