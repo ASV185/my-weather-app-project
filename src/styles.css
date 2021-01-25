@@ -3,14 +3,6 @@ img {
   border-radius: 30px;
 }
 
-.weather-app {
-  max-width: 600px;
-  padding: 20px;
-  border-radius: 10px;
-  top: 30px;
-  opacity: 1px;
-}
-
 .night {
   top: 30px;
   opacity: 1;
@@ -192,4 +184,16 @@ span.active {
 
 span.active:hover {
   text-decoration: none;
+}
+.weather-app {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  top: 30px;
+  opacity: 1px;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
 }
