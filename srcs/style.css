@@ -140,12 +140,12 @@ p {
   margin: 0;
   text-align: center;
   color: navy;
-  font-size: 75px;
+  font-size: 50px;
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
   position: fixed;
-  top: 20px;
+  top: 10px;
   left: 550px;
   text-shadow: 2px 2px 2px black;
 }
