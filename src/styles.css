@@ -192,8 +192,3 @@ span.active:hover {
   top: 30px;
   opacity: 1px;
 }
-
-.weather-app-wrapper {
-  max-width: 600px;
-  margin: 30px auto;
-}
