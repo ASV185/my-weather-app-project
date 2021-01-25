@@ -21,9 +21,13 @@ h6 {
 }
 
 h3 {
+  display: block;
+  margin: 0;
+  position: fixed;
+  opacity: 1;
   color: gray;
   font-size: 20px;
-  top: 25px;
+  top: 55px;
   left: 450px;
   text-shadow: 2px 2px 2px gray;
 }
