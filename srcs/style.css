@@ -25,11 +25,11 @@ h3 {
   margin: 0;
   position: fixed;
   opacity: 1;
-  color: gray;
+  color: rgb(240, 134, 13);
   font-size: 40px;
-  top: 90px;
-  left: 450px;
-  text-shadow: 2px 2px 2px gray;
+  top: 150px;
+  left: 500px;
+  text-shadow: 2px 2px 2px black;
 }
 
 form {
