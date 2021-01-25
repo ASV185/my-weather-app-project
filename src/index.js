@@ -1,20 +1,3 @@
-function convertToFahrenheit(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 66;
-}
-
-function convertToCelsius(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 19;
-}
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", convertToFahrenheit);
-
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", convertToCelsius);
 
 function formatDate(timestamp) {
   let date = newDate(timestamp);
@@ -49,6 +32,8 @@ function displayWeatherCondition(response) {
   let humidityElement= document.querySelector("#humidity");
   let windElement= document.querySelector("#wind");
   let dateElement= document.querySelector("#date");
+  celsiusTemperature= response.data.main.temp;
+
   temperatureElement.innerHTML= Math.round (response.data.main.temp);
   cityElement.innerHTML= response.data.name;
   descriptionElement.innerHTML= response.data.weather[0].description;
@@ -80,6 +65,20 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
+function displayFahrenheitTemperature(event) {
+  event.preventDefault();
+  let fahrenheitTemperature= (celsiusTemperature*9)/5+32;
+  let temperatureElement= document.querySelector ("#temperature");
+  temperatureElement.innerHTML= Math.round(fahrenheitTemperature);
+}
+
+function displayCelsiusTemperature(event) {
+  event.preventDefault();
+  let temperatureElement= document.querySelector ("#temperature");
+  temperatureElement.innerHTML= Math.round(celsiusTemperature);
+}
+
+let celsiusTemperature= null;
 
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
@@ -87,3 +86,9 @@ searchForm.addEventListener("submit", handleSubmit);
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 searchCity("El Paso");
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
+
+let CelsiusLink= document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", displayCelsiusTemperature);
