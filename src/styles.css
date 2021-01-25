@@ -3,9 +3,10 @@ img {
   border-radius: 30px;
 }
 
-.night {
-  top: 30px;
-  opacity: 1;
+.weather-app {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 h6 {
