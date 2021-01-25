@@ -67,10 +67,10 @@ function getCurrentLocation(event) {
 
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
-  celsiuslink.classList.remove("active");
-  fahrenheitLink.classList.add("active");
   let fahrenheitTemperature= (celsiusTemperature*9)/5+32;
   let temperatureElement= document.querySelector ("#temperature");
+  celsiuslink.classList.remove("active");
+  fahrenheitLink.classList.add("active");
   temperatureElement.innerHTML= Math.round(fahrenheitTemperature);
 }
 
