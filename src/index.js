@@ -11,7 +11,7 @@ function formatDate(timestamp) {
     "Saturday"
   ];
 
-let days = days[date.getDay()];
+let day = days[date.getDay()];
 
 let months= [
   "January",
