@@ -1,6 +1,6 @@
 
 function formatDate(timestamp) {
-  let date = newDate(timestamp);
+  let date = new Date(timestamp);
   let days = [
     "Sunday",
     "Monday",
@@ -31,17 +31,17 @@ let months= [
 let month= months[date.getMonth()];
 
 let year= date.getFullYear();
-let formattedDate=`${date},${month}${date},${year}`;
+let formattedDate=`${day}, ${month} ${date}, ${year}`;
 return formattedDate;
 
 }
 
-  let now= newDate();
+  let now= new Date();
   let date= document.querySelector("#date");
   date.innerHTML= `${formatDate(now)}`;
 
   function formatTime (timestamp) {
-    let date= newDate (timestamp);
+    let date= new Date (timestamp);
     let hours= date.getHours();
 
   if (hours < 10) {
