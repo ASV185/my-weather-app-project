@@ -31,7 +31,7 @@ let months= [
 let month= months[date.getMonth()];
 
 let year= date.getFullYear();
-let formattedDate=`${day}, ${month} ${date}, ${year}`;
+let formattedDate=`${day}, ${month}, ${year}`;
 return formattedDate;
 
 }
