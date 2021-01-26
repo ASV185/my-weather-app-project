@@ -1,15 +1,6 @@
 
 function formatDate(timestamp) {
   let date = newDate(timestamp);
-  let hours = date.getHours();
-  if (hours < 10) {
-    hours = `0${hours}`;
-  }
-  let minutes = date.getMinutes();
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
-  }
-  
   let days = [
     "Sunday",
     "Monday",
@@ -21,9 +12,52 @@ function formatDate(timestamp) {
   ];
 
 let day = days[date.getDay()];
-return `${day}${hours}:${minutes}`;
+
+let months= [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+];
+
+let month= months[date.getMonth()];
+
+let year= date.getFullYear();
+let formattedDate=`${date},${month}${date},${year}`;
+return formattedDate;
 
 }
+
+  let now= newDate();
+  let date= document.querySelector("#date");
+  date.innerHTML= `${formatDate(now)}`;
+
+  function formatTime (timestamp) {
+    let date= newDate (timestamp);
+    let hours= date.getHours();
+
+  if (hours < 10) {
+    hours = `0${hours}`;
+  }
+  let minutes = date.getMinutes();
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
+
+  let formattedTime= `${hours}:${minutes}`;
+  return formattedTime;
+}
+
+let time= document.querySelector("#time");
+time.innerHTML=`${formatTime(now)}`;
 
 function displayWeatherCondition(response) {
   let temperatureElement= document.querySelector("#temperature");
@@ -31,7 +65,6 @@ function displayWeatherCondition(response) {
   let descriptionElement= document.querySelector("#description");
   let humidityElement= document.querySelector("#humidity");
   let windElement= document.querySelector("#wind");
-  let dateElement= document.querySelector("#date");
   celsiusTemperature= response.data.main.temp;
 
   temperatureElement.innerHTML= Math.round (response.data.main.temp);
@@ -39,7 +72,6 @@ function displayWeatherCondition(response) {
   descriptionElement.innerHTML= response.data.weather[0].description;
   humidityElement.innerHTML= response.data.main.humidity;
   windElement.innerHTML= Math.round(response.data.wind.speed);
-  dateElement.innerHTML= formatDate(response.data.dt*1000);
 }
 
 function searchCity(city) {
