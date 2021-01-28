@@ -204,6 +204,7 @@ h4 {
 
 .weather-app a {
   color: rgb(233, 8, 121);
+  text-shadow: 2px 2px 2px black;
   cursor: default;
 }
 
