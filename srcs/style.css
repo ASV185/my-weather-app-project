@@ -202,11 +202,11 @@ h4 {
   text-shadow: 2px 2px 2px black;
 }
 
-.weather-app a {
+.weather-app a .active {
   color: black;
   cursor: default;
 }
 
-.weather-app a:hover {
+.weather-app a .active:hover {
   text-decoration: none;
 }
