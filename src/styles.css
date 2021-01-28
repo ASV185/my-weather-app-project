@@ -208,8 +208,5 @@ h4 {
   color: white;
   text-shadow: 2px 2px 2px black;
   cursor: default;
-}
-
-.weather-app a {
   text-decoration: none;
 }
