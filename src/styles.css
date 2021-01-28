@@ -204,18 +204,12 @@ h4 {
   text-shadow: 2px 2px 2px black;
 }
 
-span.active {
-  color: black;
+.weather-app a {
+  color: white;
+  text-shadow: 2px 2px 2px black;
   cursor: default;
 }
 
-span.active:hover {
+.weather-app a {
   text-decoration: none;
-}
-.weather-app {
-  max-width: 600px;
-  padding: 20px;
-  border-radius: 10px;
-  top: 30px;
-  opacity: 1px;
 }
