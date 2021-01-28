@@ -102,12 +102,16 @@ function displayFahrenheitTemperature(event) {
   let fahrenheitTemperature= (celsiusTemperature*9)/5+32;
   let temperatureElement= document.querySelector ("#temperature");
   temperatureElement.innerHTML= Math.round(fahrenheitTemperature);
+  celsiusLink.classList.remove("active");
+  fahrenheitLink.classList.add("active");
 }
 
 function displayCelsiusTemperature(event) {
   event.preventDefault();
   let temperatureElement= document.querySelector ("#temperature");
   temperatureElement.innerHTML= Math.round(celsiusTemperature);
+  celsiusLink.classList.add("active");
+  fahrenheitLink.classList.remove("active");
 }
 
 let celsiusTemperature= null;
@@ -122,5 +126,5 @@ searchCity("El Paso");
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
-let CelsiusLink= document.querySelector("#celsius-link");
+let celsiusLink= document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
