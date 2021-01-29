@@ -137,7 +137,7 @@ h4 {
 .time {
   display: block;
   margin: 0;
-  color: black;
+  color: rgb(34, 23, 34);
   font-family: "Castoro", serif;
   position: fixed;
   font-size: 30px;
@@ -151,7 +151,7 @@ h4 {
 .date {
   display: block;
   margin: 0;
-  color: black;
+  color: rgb(34, 23, 34);
   font-family: "Castoro", serif;
   position: fixed;
   font-size: 30px;
