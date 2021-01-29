@@ -204,12 +204,12 @@ h4 {
 }
 
 .weather-app .active {
-  color: rgb(57, 71, 199);
+  color: rgb(233, 8, 121);
   text-shadow: 2px 2px 2px black;
   cursor: default;
 }
 
 .weather-app a {
-  color: rgb(233, 8, 121);
+  color: rgb(57, 71, 199);
   text-decoration: none;
 }
