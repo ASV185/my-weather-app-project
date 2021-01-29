@@ -204,7 +204,7 @@ h4 {
 }
 
 .weather-app .active {
-  color: black;
+  color: rgb(57, 71, 199);
   text-shadow: 2px 2px 2px black;
   cursor: default;
 }
