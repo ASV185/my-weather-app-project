@@ -203,9 +203,13 @@ h4 {
   text-shadow: 2px 2px 2px black;
 }
 
-.weather-app a {
-  color: rgb(233, 8, 121);
+.weather-app .active {
+  color: black;
   text-shadow: 2px 2px 2px black;
   cursor: default;
+}
+
+.weather-app a {
+  color: rgb(233, 8, 121);
   text-decoration: none;
 }
