@@ -206,13 +206,13 @@ h4 {
 }
 
 .weather-app .active {
-  color: black;
+  color: white;
   text-shadow: 2px 2px 2px black;
   cursor: default;
 }
 
 .weather-app a {
-  color: white;
+  color: black;
   text-shadow: 2px 2px 2px black;
   text-decoration: none;
 }
