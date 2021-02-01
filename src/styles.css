@@ -1,5 +1,6 @@
-container {
+.container {
   max-width: 500px;
+  text-align: left;
 }
 img {
   size: 500px;
