@@ -5,6 +5,7 @@ img {
   size: 500px;
   padding: 20px 10px;
   border-radius: 30px;
+  position: static;
 }
 
 .weather-app {
@@ -113,8 +114,8 @@ li {
   font-weight: 900px;
   opacity: 1;
   top: 120px;
-  position: static;
-  left: 400px;
+  position: fixed;
+  left: 700px;
   text-transform: capitalize;
   text-shadow: 2px 2px 2px white;
 }
