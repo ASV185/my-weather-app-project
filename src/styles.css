@@ -61,6 +61,10 @@ h3 {
   text-shadow: 2px 2px 2px black;
 }
 
+li {
+  list-style: none;
+}
+
 .humidity {
   display: block;
   text-align: right;
