@@ -1,8 +1,10 @@
 .container {
-  max-width: 500px;
+  max-width: 20px;
 }
 img {
+  text-align: left;
   size: 500px;
+  padding: 20px;
   border-radius: 30px;
   vertical-align: none;
 }
