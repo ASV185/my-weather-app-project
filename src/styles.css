@@ -213,6 +213,93 @@ h4 {
   text-shadow: 2px 2px 2px black;
 }
 
+li i .day-sun {
+  font-size: 25px;
+  color: white;
+  font-family: "Castoro", serif;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  text-shadow: 2px 2px 2px black;
+  font-weight: 900px;
+  opacity: 1;
+  top: 250px;
+  position: fixed;
+  left: 750px;
+}
+
+li i .temp.low {
+  font-size: 25px;
+  color: white;
+  font-family: "Castoro", serif;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  text-shadow: 2px 2px 2px black;
+  font-weight: 900px;
+  opacity: 1;
+  top: 300px;
+  position: fixed;
+  left: 750px;
+}
+
+li i .temp.high {
+  font-size: 25px;
+  color: white;
+  font-family: "Castoro", serif;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  text-shadow: 2px 2px 2px black;
+  font-weight: 900px;
+  opacity: 1;
+  top: 350px;
+  position: fixed;
+  left: 750px;
+}
+.feels-like {
+  font-size: 25px;
+  color: white;
+  font-family: "Castoro", serif;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  text-shadow: 2px 2px 2px black;
+  font-weight: 900px;
+  opacity: 1;
+  top: 250px;
+  position: fixed;
+  left: 800px;
+}
+.temp-min {
+  font-size: 25px;
+  color: white;
+  font-family: "Castoro", serif;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  text-shadow: 2px 2px 2px black;
+  font-weight: 900px;
+  opacity: 1;
+  top: 300px;
+  position: fixed;
+  left: 800px;
+}
+.temp-max {
+  font-size: 25px;
+  color: white;
+  font-family: "Castoro", serif;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  text-shadow: 2px 2px 2px black;
+  font-weight: 900px;
+  opacity: 1;
+  top: 350px;
+  position: fixed;
+  left: 800px;
+}
+
 .weather-app .active {
   color: white;
   text-shadow: 2px 2px 2px black;
