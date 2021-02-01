@@ -65,6 +65,9 @@ function displayWeatherCondition(response) {
   let descriptionElement= document.querySelector("#description");
   let humidityElement= document.querySelector("#humidity");
   let windElement= document.querySelector("#wind");
+  let feelsLikeElement= document.querySelector("#feels-like");
+  let tempMinElement= document.querySelector("#temp-min");
+  let tempMaxElement= document.querySelector("#temp-max");
   celsiusTemperature= response.data.main.temp;
 
   temperatureElement.innerHTML= Math.round (response.data.main.temp);
@@ -72,6 +75,9 @@ function displayWeatherCondition(response) {
   descriptionElement.innerHTML= response.data.weather[0].description;
   humidityElement.innerHTML= response.data.main.humidity;
   windElement.innerHTML= Math.round(response.data.wind.speed);
+  feelsLikeElement.innerHTML= Math.round (response.data.main.feels_like);
+  tempMinElement.innerHTML= Math.round (response.data.main.temp_min);
+  tempMaxElement.innerHTML= Math.round (response.data.main.temp_max);
 }
 
 function searchCity(city) {
