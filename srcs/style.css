@@ -2,6 +2,7 @@
   max-width: 600px;
 }
 img {
+  text-align: left;
   size: 500px;
   border-radius: 30px;
 }
