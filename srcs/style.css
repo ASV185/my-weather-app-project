@@ -48,6 +48,7 @@ h1 {
 h3 {
   display: block;
   margin: 0;
+  text-align: left;
   position: absolute;
   opacity: 1;
   color: navy;
@@ -197,6 +198,7 @@ h4 {
 .container span button {
   display: block;
   margin: 0;
+  text-align: left;
   position: absolute;
   font-family: "Anton", sans-serif;
   font-family: "Castoro", serif;
