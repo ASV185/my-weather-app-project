@@ -20,11 +20,11 @@ h6 {
   font-size: 20px;
   right: 250px;
   bottom: 30px;
-  position: fixed;
+  position: absolute;
 }
 
 form {
-  position: fixed;
+  position: absolute;
   top: 20px;
   padding: 20px;
   font-weight: 50px;
@@ -38,7 +38,7 @@ h1 {
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
-  position: fixed;
+  position: absolute;
   top: 65px;
   padding: 20px;
   font-size: 50px;
@@ -48,7 +48,8 @@ h1 {
 h3 {
   display: block;
   margin: 0;
-  position: fixed;
+  text-align: left;
+  position: absolute;
   opacity: 1;
   color: white;
   font-size: 120px;
@@ -69,7 +70,7 @@ h3 {
   font-weight: 900px;
   opacity: 1;
   top: 20px;
-  position: fixed;
+  position: absolute;
   left: 800px;
   text-shadow: 2px 2px 2px black;
 }
@@ -87,7 +88,7 @@ h3 {
   font-weight: 900px;
   opacity: 1;
   top: 70px;
-  position: fixed;
+  position: absolute;
   left: 800px;
   text-shadow: 2px 2px 2px black;
 }
@@ -105,7 +106,7 @@ h3 {
   font-weight: 900px;
   opacity: 1;
   top: 120px;
-  position: fixed;
+  position: absolute;
   left: 700px;
   text-transform: capitalize;
   text-shadow: 2px 2px 2px white;
@@ -127,7 +128,7 @@ p {
 h4 {
   color: black;
   font-family: "Castoro", serif;
-  position: fixed;
+  position: absolute;
   left: 160px;
   bottom: 5px;
   padding: 30px;
@@ -142,7 +143,7 @@ h4 {
   margin: 0;
   color: rgb(34, 23, 34);
   font-family: "Castoro", serif;
-  position: fixed;
+  position: absolute;
   font-size: 30px;
   opacity: 1;
   top: 150px;
@@ -156,7 +157,7 @@ h4 {
   margin: 0;
   color: rgb(34, 23, 34);
   font-family: "Castoro", serif;
-  position: fixed;
+  position: absolute;
   font-size: 30px;
   opacity: 1;
   top: 150px;
@@ -191,14 +192,14 @@ h4 {
   opacity: 1;
   top: 10px;
   left: 565px;
-  position: fixed;
+  position: absolute;
   text-shadow: 2px 2px 2px black;
 }
 
 .container span button {
   display: block;
   margin: 0;
-  position: fixed;
+  position: absolute;
   font-family: "Anton", sans-serif;
   font-family: "Castoro", serif;
   top: 210px;
