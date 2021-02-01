@@ -5,6 +5,7 @@
 img {
   size: 500px;
   border-radius: 30px;
+  vertical-align: none;
 }
 
 .weather-app {
