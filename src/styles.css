@@ -1,6 +1,5 @@
 .container {
   max-width: 500px;
-  text-align: right;
 }
 img {
   size: 500px;
@@ -21,11 +20,11 @@ h6 {
   font-size: 20px;
   right: 250px;
   bottom: 30px;
-  position: absolute;
+  position: fixed;
 }
 
 form {
-  position: absolute;
+  position: fixed;
   top: 20px;
   padding: 20px;
   font-weight: 50px;
@@ -39,7 +38,7 @@ h1 {
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
-  position: absolute;
+  position: fixed;
   top: 65px;
   padding: 20px;
   font-size: 50px;
@@ -50,7 +49,7 @@ h3 {
   display: block;
   margin: 0;
   text-align: left;
-  position: absolute;
+  position: fixed;
   opacity: 1;
   color: white;
   font-size: 120px;
@@ -71,7 +70,7 @@ h3 {
   font-weight: 900px;
   opacity: 1;
   top: 20px;
-  position: absolute;
+  position: fixed;
   left: 800px;
   text-shadow: 2px 2px 2px black;
 }
@@ -89,7 +88,7 @@ h3 {
   font-weight: 900px;
   opacity: 1;
   top: 70px;
-  position: absolute;
+  position: fixed;
   left: 800px;
   text-shadow: 2px 2px 2px black;
 }
@@ -107,7 +106,7 @@ h3 {
   font-weight: 900px;
   opacity: 1;
   top: 120px;
-  position: absolute;
+  position: fixed;
   left: 700px;
   text-transform: capitalize;
   text-shadow: 2px 2px 2px white;
@@ -129,7 +128,7 @@ p {
 h4 {
   color: black;
   font-family: "Castoro", serif;
-  position: absolute;
+  position: fixed;
   left: 160px;
   bottom: 5px;
   padding: 30px;
@@ -144,7 +143,7 @@ h4 {
   margin: 0;
   color: rgb(34, 23, 34);
   font-family: "Castoro", serif;
-  position: absolute;
+  position: fixed;
   font-size: 30px;
   opacity: 1;
   top: 150px;
@@ -158,7 +157,7 @@ h4 {
   margin: 0;
   color: rgb(34, 23, 34);
   font-family: "Castoro", serif;
-  position: absolute;
+  position: fixed;
   font-size: 30px;
   opacity: 1;
   top: 150px;
@@ -193,14 +192,14 @@ h4 {
   opacity: 1;
   top: 10px;
   left: 565px;
-  position: absolute;
+  position: fixed;
   text-shadow: 2px 2px 2px black;
 }
 
 .container span button {
   display: block;
   margin: 0;
-  position: absolute;
+  position: fixed;
   font-family: "Anton", sans-serif;
   font-family: "Castoro", serif;
   top: 210px;
