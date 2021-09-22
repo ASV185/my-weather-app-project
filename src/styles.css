@@ -24,11 +24,9 @@ h6 {
   font-size: 20px;
   right: 250px;
   bottom: 30px;
-  position: fixed;
 }
 
 form {
-  position: fixed;
   top: 20px;
   padding: 20px;
   font-weight: 50px;
@@ -42,7 +40,6 @@ h1 {
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
-  position: fixed;
   top: 65px;
   padding: 20px;
   font-size: 50px;
@@ -53,7 +50,6 @@ h3 {
   display: block;
   margin: 0;
   text-align: left;
-  position: fixed;
   opacity: 1;
   color: white;
   font-size: 120px;
@@ -78,7 +74,6 @@ li {
   font-weight: 900px;
   opacity: 1;
   top: 20px;
-  position: fixed;
   left: 800px;
   text-shadow: 2px 2px 2px black;
 }
@@ -96,7 +91,6 @@ li {
   font-weight: 900px;
   opacity: 1;
   top: 70px;
-  position: fixed;
   left: 800px;
   text-shadow: 2px 2px 2px black;
 }
@@ -114,7 +108,6 @@ li {
   font-weight: 900px;
   opacity: 1;
   top: 120px;
-  position: fixed;
   left: 700px;
   text-transform: capitalize;
   text-shadow: 2px 2px 2px white;
@@ -136,7 +129,6 @@ p {
 h4 {
   color: black;
   font-family: "Castoro", serif;
-  position: fixed;
   left: 160px;
   bottom: 5px;
   padding: 30px;
@@ -151,7 +143,6 @@ h4 {
   margin: 0;
   color: rgb(34, 23, 34);
   font-family: "Castoro", serif;
-  position: fixed;
   font-size: 30px;
   opacity: 1;
   top: 150px;
@@ -165,7 +156,6 @@ h4 {
   margin: 0;
   color: rgb(34, 23, 34);
   font-family: "Castoro", serif;
-  position: fixed;
   font-size: 30px;
   opacity: 1;
   top: 150px;
@@ -185,7 +175,6 @@ h4 {
   opacity: 1;
   top: 10px;
   left: 478px;
-  position: fixed;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -200,14 +189,12 @@ h4 {
   opacity: 1;
   top: 20px;
   left: 565px;
-  position: fixed;
   text-shadow: 2px 2px 2px black;
 }
 
 .container span button {
   display: block;
   margin: 0;
-  position: fixed;
   font-family: "Anton", sans-serif;
   font-family: "Castoro", serif;
   top: 210px;
@@ -229,7 +216,6 @@ li i .day-sun {
   font-weight: 900px;
   opacity: 1;
   top: 250px;
-  position: fixed;
   left: 750px;
 }
 
@@ -244,7 +230,6 @@ li i .temp.low {
   font-weight: 900px;
   opacity: 1;
   top: 300px;
-  position: fixed;
   left: 750px;
 }
 
@@ -259,7 +244,6 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   top: 350px;
-  position: fixed;
   left: 750px;
 }
 .feels-like {
@@ -273,7 +257,6 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   top: 250px;
-  position: fixed;
   left: 800px;
 }
 .temp-min {
@@ -287,7 +270,6 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   top: 300px;
-  position: fixed;
   left: 800px;
 }
 .temp-max {
@@ -301,7 +283,6 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   top: 350px;
-  position: fixed;
   left: 800px;
 }
 
