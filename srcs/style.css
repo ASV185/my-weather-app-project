@@ -23,11 +23,9 @@ h6 {
   font-size: 20px;
   right: 250px;
   bottom: 30px;
-  position: fixed;
 }
 
 form {
-  position: fixed;
   top: 20px;
   padding: 20px;
   font-weight: 50px;
@@ -40,7 +38,6 @@ h1 {
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
-  position: fixed;
   top: 65px;
   padding: 20px;
   font-size: 50px;
@@ -55,7 +52,6 @@ h3 {
   display: block;
   margin: 0;
   text-align: left;
-  position: fixed;
   opacity: 1;
   color: navy;
   font-size: 150px;
@@ -76,7 +72,6 @@ h3 {
   font-weight: 900px;
   opacity: 1;
   top: 20px;
-  position: fixed;
   left: 800px;
   text-shadow: 2px 2px 2px black;
 }
@@ -94,7 +89,6 @@ h3 {
   font-weight: 900px;
   opacity: 1;
   top: 70px;
-  position: fixed;
   left: 800px;
   text-shadow: 2px 2px 2px black;
 }
@@ -112,7 +106,6 @@ h3 {
   font-weight: 150px;
   opacity: 1;
   top: 120px;
-  position: fixed;
   left: 700px;
   text-transform: capitalize;
   text-shadow: 2px 2px 2px black;
@@ -134,7 +127,6 @@ p {
 h4 {
   color: navy;
   font-family: "Castoro", serif;
-  position: fixed;
   left: 160px;
   bottom: 5px;
   padding: 30px;
@@ -148,7 +140,6 @@ h4 {
   display: block;
   margin: 0;
   color: blueviolet;
-  position: fixed;
   font-family: "Castoro", serif;
   font-size: 30px;
   opacity: 1;
@@ -162,7 +153,6 @@ h4 {
   display: block;
   margin: 0;
   color: blueviolet;
-  position: fixed;
   font-family: "Castoro", serif;
   font-size: 30px;
   opacity: 1;
@@ -180,7 +170,6 @@ h4 {
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
-  position: fixed;
   top: 10px;
   left: 480px;
   text-shadow: 2px 2px 2px black;
@@ -195,7 +184,6 @@ h4 {
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
-  position: fixed;
   top: 20px;
   left: 575px;
   text-shadow: 2px 2px 2px black;
@@ -206,7 +194,6 @@ h4 {
   display: block;
   margin: 0;
   text-align: left;
-  position: fixed;
   font-family: "Anton", sans-serif;
   font-family: "Castoro", serif;
   top: 210px;
@@ -227,7 +214,6 @@ li i .day-sun {
   font-weight: 900px;
   opacity: 1;
   top: 250px;
-  position: fixed;
   left: 750px;
 }
 
@@ -242,7 +228,6 @@ li i .temp.low {
   font-weight: 900px;
   opacity: 1;
   top: 300px;
-  position: fixed;
   left: 750px;
 }
 
@@ -257,7 +242,6 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   top: 350px;
-  position: fixed;
   left: 750px;
 }
 .feels-like {
@@ -271,7 +255,6 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   top: 250px;
-  position: fixed;
   left: 800px;
 }
 .temp-min {
@@ -285,7 +268,6 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   top: 300px;
-  position: fixed;
   left: 800px;
 }
 .temp-max {
@@ -299,7 +281,6 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   top: 350px;
-  position: fixed;
   left: 800px;
 }
 .weather-app .active {

@@ -24,12 +24,14 @@ h6 {
   font-size: 20px;
   right: 250px;
   bottom: 30px;
+  position: static;
 }
 
 form {
   top: 20px;
   padding: 20px;
   font-weight: 50px;
+  position: static;
 }
 
 h1 {
@@ -43,6 +45,7 @@ h1 {
   top: 65px;
   padding: 20px;
   font-size: 50px;
+  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -55,6 +58,7 @@ h3 {
   font-size: 120px;
   top: 120px;
   left: 570px;
+  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -75,6 +79,7 @@ li {
   opacity: 1;
   top: 20px;
   left: 800px;
+  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -92,6 +97,7 @@ li {
   opacity: 1;
   top: 70px;
   left: 800px;
+  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -110,6 +116,7 @@ li {
   top: 120px;
   left: 700px;
   text-transform: capitalize;
+  position: static;
   text-shadow: 2px 2px 2px white;
 }
 
@@ -124,6 +131,7 @@ p {
   margin: 20px auto;
   color: white;
   padding: 20px auto;
+  position: static;
 }
 
 h4 {
@@ -136,6 +144,7 @@ h4 {
   font-weight: bold;
   text-decoration: none;
   text-shadow: 2px 2px 2px white;
+  position: static;
 }
 
 .time {
@@ -148,6 +157,7 @@ h4 {
   top: 150px;
   left: 490px;
   font-weight: bold;
+  position: static;
   text-shadow: 2px 2px 2px white;
 }
 
@@ -161,6 +171,7 @@ h4 {
   top: 150px;
   left: 165px;
   font-weight: bold;
+  position: static;
   text-shadow: 2px 2px 2px white;
 }
 
@@ -175,6 +186,7 @@ h4 {
   opacity: 1;
   top: 10px;
   left: 478px;
+  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -189,6 +201,7 @@ h4 {
   opacity: 1;
   top: 20px;
   left: 565px;
+  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -202,6 +215,7 @@ h4 {
   font-size: 23px;
   font-weight: bold;
   color: white;
+  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -216,6 +230,7 @@ li i .day-sun {
   font-weight: 900px;
   opacity: 1;
   top: 250px;
+  position: static;
   left: 750px;
 }
 
@@ -231,6 +246,7 @@ li i .temp.low {
   opacity: 1;
   top: 300px;
   left: 750px;
+  position: static;
 }
 
 li i .temp.high {
@@ -245,6 +261,7 @@ li i .temp.high {
   opacity: 1;
   top: 350px;
   left: 750px;
+  position: static;
 }
 .feels-like {
   font-size: 25px;
@@ -258,6 +275,7 @@ li i .temp.high {
   opacity: 1;
   top: 250px;
   left: 800px;
+  position: static;
 }
 .temp-min {
   font-size: 25px;
@@ -271,6 +289,7 @@ li i .temp.high {
   opacity: 1;
   top: 300px;
   left: 800px;
+  position: static;
 }
 .temp-max {
   font-size: 25px;
@@ -284,6 +303,7 @@ li i .temp.high {
   opacity: 1;
   top: 350px;
   left: 800px;
+  position: static;
 }
 
 .weather-app .active {
