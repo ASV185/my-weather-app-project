@@ -1,14 +1,3 @@
-.container-body {
-  display: block;
-  margin: 0;
-  padding: 20px 20px;
-  max-width: 500px;
-  text-align: center;
-  size: 500px;
-  border-radius: 30px;
-  background-color: linear-gradient(to right, rgb(109, 112, 143), blue);
-}
-
 h6 {
   font-family: "Castoro", serif;
   color: navy;
