@@ -1,5 +1,5 @@
 .container-fluid .weather-app {
-  max-width: 1000px;
+  max-width: 1100px;
   background-color: #add8e6;
   opacity: 0.7;
   padding: 20px 20px;
@@ -40,7 +40,7 @@ h1 {
 h3 {
   display: block;
   margin: 0;
-  text-align: left;
+  text-align: center;
   opacity: 1;
   color: yellow;
   font-size: 120px;
@@ -64,6 +64,7 @@ li {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  border: none;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -80,6 +81,7 @@ li {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  border: none;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -97,6 +99,7 @@ li {
   opacity: 1;
   text-transform: capitalize;
   position: static;
+  border: none;
   text-shadow: 2px 2px 2px white;
 }
 
@@ -244,6 +247,7 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  border: none;
 }
 .temp-min {
   font-size: 25px;
@@ -256,6 +260,7 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  border: none;
 }
 .temp-max {
   font-size: 25px;
@@ -268,6 +273,7 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  border: none;
 }
 
 .weather-app .active {
