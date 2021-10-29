@@ -46,6 +46,7 @@ h3 {
   font-size: 120px;
   position: static;
   text-shadow: 2px 2px 2px black;
+  left: 500px;
 }
 
 li {
@@ -63,7 +64,7 @@ li {
   font-family: "Castoro", serif;
   font-weight: 900px;
   opacity: 1;
-  top: 20px;
+  top: 10px;
   left: 800px;
   position: static;
   text-shadow: 2px 2px 2px black;
@@ -81,7 +82,7 @@ li {
   font-family: "Castoro", serif;
   font-weight: 900px;
   opacity: 1;
-  top: 70px;
+  top: 30px;
   left: 800px;
   position: static;
   text-shadow: 2px 2px 2px black;
@@ -171,6 +172,8 @@ h4 {
   font-weight: bold;
   opacity: 1;
   position: static;
+  top: 20px;
+  left: 500px;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -212,6 +215,8 @@ li i .day-sun {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  left: 750px;
+  top: 50px;
 }
 
 li i .temp.low {
@@ -225,6 +230,8 @@ li i .temp.low {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  left: 750px;
+  top: 60px;
 }
 
 li i .temp.high {
@@ -238,6 +245,8 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  left: 750px;
+  top: 70px;
 }
 .feels-like {
   font-size: 25px;
@@ -250,6 +259,8 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  left: 800px;
+  top: 50px;
 }
 .temp-min {
   font-size: 25px;
@@ -262,6 +273,8 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  top: 60px;
+  left: 800px;
 }
 .temp-max {
   font-size: 25px;
@@ -274,6 +287,8 @@ li i .temp.high {
   font-weight: 900px;
   opacity: 1;
   position: static;
+  top: 70px;
+  left: 800px;
 }
 
 .weather-app .active {
