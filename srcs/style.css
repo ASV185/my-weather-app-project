@@ -1,12 +1,3 @@
-img {
-  display: block;
-  margin: 0;
-  text-align: center;
-  size: 500px;
-  padding: 20px 10px;
-  border-radius: 30px;
-}
-
 .weather-app {
   display: block;
   margin: 0;
