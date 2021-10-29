@@ -1,3 +1,6 @@
+body {
+  background-color: linear-gradient(to right, rgb(109, 112, 143), blue);
+}
 img {
   display: block;
   margin: 0;
