@@ -18,7 +18,8 @@
         <div class="container-fluid">
     
             <div class="weather-app">
-            
+              <div class="row">
+               <div class="col-4"></div>
                 <form id="search-form">
                     <input type="text" id="city-input" />
                     <button type="button" id="search" class="btn btn-light">Search</button>
@@ -26,34 +27,32 @@
                 <h1 id="city">
                     El Paso, Tx
                 </h1>
-                <h3>
-                    <i class="fas fa-moon"></i>
-                </h3>
-            
+                <ul>
+                    <li id="date" class="date">
+                    </li>
+                    <li id="time" class="time">
+                
+                    </li>
+                </ul>
                 <span>
                     <button type="button" class="btn btn-dark" id="current-location-button">Current
                         Location</button>
                 </span>
-                <ul>
-                    <li id="date" class= "date">
-                    </li>
-                    <li id="time" class= "time">
-
-                    </li>
-                </ul>
                 <h4>
                     <a href="daytime.html">
                         Daytime
                     </a>
                 </h4>
-            
-                <span class="temperature" id="temperature">
-            
-                </span>
+               </div>
+                <div class="col-4">
+                <span class="temperature" id="temperature"></span>
                 <span class="units">
                     <a href="#" id="celsius-link" class="active">℃</a> |
                     <a href="#" id="fahrenheit-link">℉</a></span>
-                <br />
+                <h3>
+                    <i class="fas fa-moon"></i>
+                </h3>
+                <div class="col-4">
                 <ul>
                     <br />
                     <li class="humidity">Humidity:<span id="humidity"></span>%</li>
@@ -70,6 +69,9 @@
                 </ul>
             </div>
             <script src="src/index.js"></script>
+            </div>
+            </div>
+            </div>
             </body>
            
             <h6>
