@@ -1,6 +1,16 @@
+.container-fluid .weather-app {
+  max-width: 1100px;
+  background-color: #4c446d;
+  opacity: 0.7;
+  padding: 20px 20px;
+  position: static;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
 h6 {
   font-family: "Castoro", serif;
-  color: navy;
+  color: #134124;
   font-weight: bold;
   text-align: right;
   font-size: 20px;
@@ -17,7 +27,7 @@ form {
 h1 {
   display: block;
   margin: 0;
-  color: rgb(233, 8, 121);
+  color: #2f2e41;
   font-family: "Castoro", serif;
   font-weight: bold;
   opacity: 1;
@@ -36,7 +46,7 @@ h3 {
   margin: 0;
   text-align: left;
   opacity: 1;
-  color: navy;
+  color: #134124;
   font-size: 150px;
   top: 100px;
   left: 550px;
@@ -45,7 +55,7 @@ h3 {
 
 .humidity {
   display: block;
-  color: navy;
+  color: #134124;
   text-align: right;
   margin: 20px;
   padding: 80px auto;
@@ -62,7 +72,7 @@ h3 {
 .wind {
   display: block;
   margin: 0;
-  color: navy;
+  color: #134124;
   text-align: right;
   margin: 20px;
   padding: 80px auto;
@@ -79,7 +89,7 @@ h3 {
 .description {
   display: block;
   margin: 0;
-  color: rgb(233, 8, 121);
+  color: #2f2e41;
   text-align: right;
   margin: 20px;
   padding: 80px auto;
@@ -108,7 +118,7 @@ p {
 }
 
 h4 {
-  color: navy;
+  color: #134124;
   font-family: "Castoro", serif;
   left: 160px;
   bottom: 5px;
@@ -122,7 +132,7 @@ h4 {
 .time {
   display: block;
   margin: 0;
-  color: blueviolet;
+  color: white;
   font-family: "Castoro", serif;
   font-size: 30px;
   opacity: 1;
@@ -135,7 +145,7 @@ h4 {
 .date {
   display: block;
   margin: 0;
-  color: blueviolet;
+  color: white;
   font-family: "Castoro", serif;
   font-size: 30px;
   opacity: 1;
@@ -148,7 +158,7 @@ h4 {
   display: block;
   margin: 0;
   text-align: center;
-  color: navy;
+  color: #134124;
   font-size: 85px;
   font-family: "Castoro", serif;
   font-weight: bold;
@@ -162,7 +172,7 @@ h4 {
   display: block;
   margin: 0;
   text-align: center;
-  color: navy;
+  color: #134124;
   font-size: 50px;
   font-family: "Castoro", serif;
   font-weight: bold;
@@ -193,7 +203,7 @@ li i .day-sun {
   text-align: right;
   margin: 20px;
   padding: 80px auto;
-  text-shadow: 2px 2px 2px rgb(233, 8, 121);
+  text-shadow: 2px 2px 2px #2f2e41;
   font-weight: 900px;
   opacity: 1;
   top: 250px;
@@ -207,7 +217,7 @@ li i .temp.low {
   text-align: right;
   margin: 20px;
   padding: 80px auto;
-  text-shadow: 2px 2px 2px rgb(233, 8, 121);
+  text-shadow: 2px 2px 2px #2f2e41;
   font-weight: 900px;
   opacity: 1;
   top: 300px;
@@ -221,7 +231,7 @@ li i .temp.high {
   text-align: right;
   margin: 20px;
   padding: 80px auto;
-  text-shadow: 2px 2px 2px rgb(233, 8, 121);
+  text-shadow: 2px 2px 2px #2f2e41;
   font-weight: 900px;
   opacity: 1;
   top: 350px;
@@ -234,7 +244,7 @@ li i .temp.high {
   text-align: right;
   margin: 20px;
   padding: 80px auto;
-  text-shadow: 2px 2px 2px rgb(233, 8, 121);
+  text-shadow: 2px 2px 2px #2f2e41;
   font-weight: 900px;
   opacity: 1;
   top: 250px;
@@ -247,7 +257,7 @@ li i .temp.high {
   text-align: right;
   margin: 20px;
   padding: 80px auto;
-  text-shadow: 2px 2px 2px rgb(233, 8, 121);
+  text-shadow: 2px 2px 2px #2f2e41;
   font-weight: 900px;
   opacity: 1;
   top: 300px;
@@ -260,19 +270,19 @@ li i .temp.high {
   text-align: right;
   margin: 20px;
   padding: 80px auto;
-  text-shadow: 2px 2px 2px rgb(233, 8, 121);
+  text-shadow: 2px 2px 2px #2f2e41;
   font-weight: 900px;
   opacity: 1;
   top: 350px;
   left: 800px;
 }
 .weather-app .active {
-  color: rgb(233, 8, 121);
+  color: #2f2e41;
   text-shadow: 2px 2px 2px black;
   cursor: default;
 }
 
 .weather-app a {
-  color: rgb(57, 71, 199);
+  color: white;
   text-decoration: none;
 }
