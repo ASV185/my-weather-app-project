@@ -1,5 +1,5 @@
 .container-fluid .weather-app {
-  max-width: 1100px;
+  max-width: 1200px;
   background-color: #add8e6;
   opacity: 0.7;
   padding: 20px 20px;
@@ -7,6 +7,11 @@
   border-radius: 20px;
   margin: 20px auto;
 }
+
+img {
+  max-width: 275px;
+}
+
 h6 {
   font-family: "Castoro", serif;
   color: black;
@@ -56,12 +61,10 @@ li {
   display: block;
   text-align: right;
   color: white;
-  margin: 20px;
-  padding: 80px auto;
-  font-size: 45px;
+  margin: 10px;
+  font-size: 35px;
   bottom: 30px;
   font-family: "Castoro", serif;
-  font-weight: 900px;
   opacity: 1;
   position: static;
   border: none;
@@ -73,12 +76,10 @@ li {
   margin: 0;
   text-align: right;
   color: white;
-  margin: 20px;
-  padding: 80px auto;
-  font-size: 45px;
+  margin: 10px;
+  font-size: 35px;
   bottom: 30px;
   font-family: "Castoro", serif;
-  font-weight: 900px;
   opacity: 1;
   position: static;
   border: none;
@@ -91,11 +92,9 @@ li {
   color: rgb(34, 23, 34);
   text-align: right;
   margin: 20px;
-  padding: 80px auto;
-  font-size: 55px;
+  font-size: 50px;
   bottom: 30px;
   font-family: "Castoro", serif;
-  font-weight: 900px;
   opacity: 1;
   text-transform: capitalize;
   position: static;
@@ -203,10 +202,8 @@ li i .day-sun {
   color: white;
   font-family: "Castoro", serif;
   text-align: right;
-  margin: 20px;
-  padding: 80px auto;
+  margin: 10px;
   text-shadow: 2px 2px 2px black;
-  font-weight: 900px;
   opacity: 1;
   position: static;
 }
@@ -216,10 +213,8 @@ li i .temp.low {
   color: white;
   font-family: "Castoro", serif;
   text-align: right;
-  margin: 20px;
-  padding: 80px auto;
+  margin: 10px;
   text-shadow: 2px 2px 2px black;
-  font-weight: 900px;
   opacity: 1;
   position: static;
 }
@@ -229,10 +224,8 @@ li i .temp.high {
   color: white;
   font-family: "Castoro", serif;
   text-align: right;
-  margin: 20px;
-  padding: 80px auto;
+  margin: 10px;
   text-shadow: 2px 2px 2px black;
-  font-weight: 900px;
   opacity: 1;
   position: static;
 }
@@ -241,10 +234,8 @@ li i .temp.high {
   color: white;
   font-family: "Castoro", serif;
   text-align: right;
-  margin: 20px;
-  padding: 80px auto;
+  margin: 10px;
   text-shadow: 2px 2px 2px black;
-  font-weight: 900px;
   opacity: 1;
   position: static;
   border: none;
@@ -254,10 +245,8 @@ li i .temp.high {
   color: white;
   font-family: "Castoro", serif;
   text-align: right;
-  margin: 20px;
-  padding: 80px auto;
+  margin: 10px;
   text-shadow: 2px 2px 2px black;
-  font-weight: 900px;
   opacity: 1;
   position: static;
   border: none;
@@ -267,10 +256,8 @@ li i .temp.high {
   color: white;
   font-family: "Castoro", serif;
   text-align: right;
-  margin: 20px;
-  padding: 80px auto;
+  margin: 10px;
   text-shadow: 2px 2px 2px black;
-  font-weight: 900px;
   opacity: 1;
   position: static;
   border: none;
