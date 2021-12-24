@@ -12,11 +12,11 @@ img {
   max-width: 275px;
 }
 
-h6 {
+footer {
   font-family: "Castoro", serif;
   color: #134124;
   font-weight: bold;
-  text-align: right;
+  text-align: center;
   font-size: 20px;
   right: 250px;
   bottom: 30px;
