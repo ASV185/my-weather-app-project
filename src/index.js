@@ -102,7 +102,7 @@ function getCurrentLocation(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
-// Receive Fahrenheit temperature and queryselector for Fahrenheit
+// Receive Fahrenheit temperature and queryselector for Fahrenheit ( when you click F)
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
   let fahrenheitTemperature= (celsiusTemperature*9)/5+32;
@@ -111,7 +111,7 @@ function displayFahrenheitTemperature(event) {
   celsiusLink.classList.remove("active");
   fahrenheitLink.classList.add("active");
 }
-// Receive Celsius temperature and queryselector for Celsius
+// Receive Celsius temperature and queryselector for Celsius ( when you click C)
 function displayCelsiusTemperature(event) {
   event.preventDefault();
   let temperatureElement= document.querySelector ("#temperature");
