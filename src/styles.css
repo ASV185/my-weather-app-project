@@ -47,17 +47,6 @@ h1 {
   text-shadow: 2px 2px 2px black;
 }
 
-h3 {
-  display: block;
-  margin: 0;
-  text-align: center;
-  opacity: 1;
-  color: yellow;
-  font-size: 120px;
-  position: static;
-  text-shadow: 2px 2px 2px black;
-}
-
 li {
   list-style: none;
 }
