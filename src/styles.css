@@ -4,46 +4,30 @@
 }
 
 .container-fluid .weather-app {
-  max-width: 1200px;
+  max-width: 600px;
   background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
-  opacity: 0.7;
   padding: 20px 20px;
   position: static;
-  border-radius: 20px;
+  border-radius: 1rem;
   margin: 20px auto;
-}
-
-img {
-  max-width: 275px;
-}
-
-footer {
-  font-family: "Castoro", serif;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  font-size: 20px;
-  position: static;
 }
 
 form {
   top: 20px;
-  padding: 20px;
-  font-weight: 50px;
+  padding: 0.5rem;
   position: static;
+  font-weight: 50px;
+  text-align: center;
 }
 
 h1 {
-  display: block;
-  margin: 0;
-  text-align: left;
-  color: black;
-  font-family: "Castoro", serif;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
   font-weight: bold;
   opacity: 1;
-  padding: 20px;
-  font-size: 50px;
-  position: static;
+  padding: 0.25rem;
+  font-size: 2rem;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -52,28 +36,23 @@ li {
 }
 
 .humidity {
-  display: block;
-  text-align: right;
+  text-align: center;
   color: white;
-  margin: 10px;
-  font-size: 35px;
-  bottom: 30px;
-  font-family: "Castoro", serif;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
   opacity: 1;
   position: static;
-  border: none;
   text-shadow: 2px 2px 2px black;
 }
 
 .wind {
-  display: block;
-  margin: 0;
-  text-align: right;
+  text-align: center;
   color: white;
-  margin: 10px;
-  font-size: 35px;
+  margin: 0.5rem;
+  font-size: 1rem;
   bottom: 30px;
-  font-family: "Castoro", serif;
+  font-family: "Roboto Slab", serif;
   opacity: 1;
   position: static;
   border: none;
@@ -83,81 +62,47 @@ li {
 .description {
   display: block;
   margin: 0;
-  color: rgb(34, 23, 34);
-  text-align: right;
-  margin: 20px;
-  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
   bottom: 30px;
-  font-family: "Castoro", serif;
+  font-family: "Roboto Slab", serif;
   opacity: 1;
   text-transform: capitalize;
   position: static;
-  border: none;
-  text-shadow: 2px 2px 2px white;
-}
-
-p {
-  display: block;
-  margin: 0;
-  font-family: "Anton", sans-serif;
-  font-family: "Castoro", serif;
-  font-weight: 900px;
-  font-size: 35px;
-  text-align: center;
-  margin: 20px auto;
-  color: white;
-  padding: 20px auto;
-  position: static;
-}
-
-h4 {
-  color: black;
-  font-family: "Castoro", serif;
-  left: 160px;
-  bottom: 5px;
-  padding: 30px;
-  font-size: 25px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 2px 2px 2px white;
-  position: static;
+  text-shadow: 2px 2px 2px black;
 }
 
 .time {
-  display: block;
-  margin: 0;
-  color: rgb(34, 23, 34);
-  font-family: "Castoro", serif;
-  font-size: 30px;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 1rem;
   opacity: 1;
-  top: 150px;
-  left: 490px;
   font-weight: bold;
   position: static;
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 2px 2px 2px black;
 }
 
 .date {
-  display: block;
-  margin: 0;
-  color: rgb(34, 23, 34);
-  font-family: "Castoro", serif;
-  font-size: 30px;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 1rem;
   opacity: 1;
-  top: 150px;
-  left: 165px;
   font-weight: bold;
   position: static;
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 2px 2px 2px black;
 }
 
 .temperature {
   display: block;
   margin: 0;
   text-align: center;
-  color: black;
-  font-size: 85px;
-  font-family: "Castoro", serif;
+  color: #ffffff;
+  font-size: 5rem;
+  font-family: "Roboto Slab", serif;
   font-weight: bold;
   opacity: 1;
   position: static;
@@ -168,9 +113,9 @@ h4 {
   display: block;
   margin: 0;
   text-align: center;
-  color: black;
-  font-size: 55px;
-  font-family: "Castoro", serif;
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: "Roboto Slab", serif;
   font-weight: bold;
   opacity: 1;
   position: static;
@@ -179,82 +124,13 @@ h4 {
 
 .container span button {
   display: block;
-  margin: 0;
-  font-family: "Anton", sans-serif;
-  font-family: "Castoro", serif;
-  top: 210px;
-  left: 200px;
-  font-size: 23px;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 2rem;
   font-weight: bold;
   color: white;
   position: static;
   text-shadow: 2px 2px 2px black;
-}
-
-li i .day-sun {
-  font-size: 25px;
-  color: white;
-  font-family: "Castoro", serif;
-  text-align: right;
-  margin: 10px;
-  text-shadow: 2px 2px 2px black;
-  opacity: 1;
-  position: static;
-}
-
-li i .temp.low {
-  font-size: 25px;
-  color: white;
-  font-family: "Castoro", serif;
-  text-align: right;
-  margin: 10px;
-  text-shadow: 2px 2px 2px black;
-  opacity: 1;
-  position: static;
-}
-
-li i .temp.high {
-  font-size: 25px;
-  color: white;
-  font-family: "Castoro", serif;
-  text-align: right;
-  margin: 10px;
-  text-shadow: 2px 2px 2px black;
-  opacity: 1;
-  position: static;
-}
-.feels-like {
-  font-size: 25px;
-  color: white;
-  font-family: "Castoro", serif;
-  text-align: right;
-  margin: 10px;
-  text-shadow: 2px 2px 2px black;
-  opacity: 1;
-  position: static;
-  border: none;
-}
-.temp-min {
-  font-size: 25px;
-  color: white;
-  font-family: "Castoro", serif;
-  text-align: right;
-  margin: 10px;
-  text-shadow: 2px 2px 2px black;
-  opacity: 1;
-  position: static;
-  border: none;
-}
-.temp-max {
-  font-size: 25px;
-  color: white;
-  font-family: "Castoro", serif;
-  text-align: right;
-  margin: 10px;
-  text-shadow: 2px 2px 2px black;
-  opacity: 1;
-  position: static;
-  border: none;
 }
 
 .weather-app .active {
@@ -263,8 +139,36 @@ li i .temp.high {
   cursor: default;
 }
 
-.weather-app a {
+.weather-app .fahrenheit-link {
   color: black;
   text-shadow: 2px 2px 2px black;
   text-decoration: none;
+}
+
+.nighttime-weather-link {
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px black;
+  text-align: left;
+  position: static;
+}
+
+.open-sourced-link {
+  font-family: "Roboto Slab", serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+  position: static;
+}
+
+.coder {
+  font-family: "Roboto Slab", serif;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
 }

@@ -31,7 +31,7 @@ let months= [
 let month= months[date.getMonth()];
 
 let year= date.getFullYear();
-let formattedDate=`${day}, ${month} ${year}`;
+let formattedDate=`${day},`;
 return formattedDate;
 
 }
@@ -65,7 +65,6 @@ function displayWeatherCondition(response) {
   let descriptionElement= document.querySelector("#description");
   let humidityElement= document.querySelector("#humidity");
   let windElement= document.querySelector("#wind");
-  let feelsLikeElement= document.querySelector("#feels-like");
   let tempMinElement= document.querySelector("#temp-min");
   let tempMaxElement= document.querySelector("#temp-max");
   celsiusTemperature= response.data.main.temp;
@@ -81,7 +80,7 @@ function displayWeatherCondition(response) {
 }
 // Search city using API
 function searchCity(city) {
-  let apiKey = "5560976f4c6da3010becbefe98ff5b86";
+  let apiKey = "ba0e4799e1fd496cce3683dfddd87bcc";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayWeatherCondition);
 }
@@ -93,7 +92,7 @@ function handleSubmit(event) {
 }
 // position function for searching location using API
 function searchLocation(position) {
-  let apiKey = "5560976f4c6da3010becbefe98ff5b86";
+  let apiKey = "ba0e4799e1fd496cce3683dfddd87bcc";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayWeatherCondition);
 }
@@ -125,7 +124,7 @@ let celsiusTemperature= null;
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("click", handleSubmit);
 
-let currentLocationButton = document.querySelector("#current-location-button");
+let currentLocationButton = document.querySelector("#current-location-pin");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 searchCity("El Paso");
 
