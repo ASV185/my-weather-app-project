@@ -6,70 +6,56 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/df69181b0b.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Castoro:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Nighttime</title>
     <link rel="stylesheet" href="srcs/style.css" />
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="weather-app">
-           <div class="row">
-            <div class="col">
-            <form id="search-form">
-                <input type="text" id="city-input" />
-                <button type="button" id="search" class="btn btn-success">Search</button>
-            </form>
-            <br/>
-            <h1 id="city">
-                El Paso,Tx
-            </h1>
-            <br/>
-            <ul>
-                <li id="date" class="date">
-                </li>
-                <li id="time" class="time">
-                </li>
-            </ul>
-            <br/>
-            <span class="location">
-                <button type="button" class="btn btn-success" id="current-location-button">Current Location</button>
-            </span>
-            <h4>
-                <a href="index.html">
-                    Daytime
-                </a>
-            </h4>
-            </div>
-            <div class="col">
-            <span class="temperature" id="temperature">
-            </span>
-            <span class="units">
-                <a href="#" class="active" id="celsius-link">℃</a>|
-                <a href="#" id="fahrenheit-link">℉</a></span>
-                <img src="images/dark-current-location.svg" class="dark-current-location" alt="darkcurrentLocation Logo"
-                 />
-             </div>
-             <div class="col">
-                <ul>
-                    <li class="humidity">Humidity:<span id="humidity"></span>%</li>
-                    <li class="wind">Wind:<span id="wind"></span>km/h</li>
-                    <li class="description"><span id="description"></span></li>
-                    <li class="feels-like"><i id="day-sun"class="far fa-sun"></i>Feels-like:<span id="feels-like"></span>℃</li>
-                    <li class="temp-min"><i id="temp.low"class="fas fa-temperature-low"></i>Temp. Min.:<span id="temp-min"></span>℃</li>
-                    <li class="temp-max"><i id="temp.high"class="fas fa-temperature-high"></i>Temp. Max.:<span id="temp-max"></span>℃</li>
-                </ul>
-                <script src="src/index.js"></script>
-             </div>
-          </div>
-         </div>
-        </div>
+<div class="container-fluid">
+    <div class="weather-app">
+        <form id="search-form">
+            <input type="text" id="city-input" />
+            <button type="button" id="search" class="btn btn-dark">Search</button>
+        </form>
+        <br />
+        <h1 id="city">
+            El Paso,Tx
+        </h1>
+        <br />
+        <ul>
+            <li id="date" class="date">
+            </li>
+            <li id="time" class="time">
+            </li>
+        </ul>
+        <span class="temperature" id="temperature">
+        </span>
+        <span class="units">
+            <a href="#" class="active" id="celsius-link">℃</a>|
+            <a href="#" class="fahrenheit-link" id="fahrenheit-link" >℉</a></span>
+        <span id="description" class="description"></span>
+        <ul>
+            <li class="humidity">Humidity | <span id="humidity"></span>%</li>
+            <li class="wind">Wind | <span id="wind"></span>km/h</li>
+        </ul>
+        <br />
+        <span class="location">
+            <i class="fa-solid fa-location-pin" id="current-location-pin"></i>
+        </span>
+        <br />
+        <footer>
+            <a href="/" class="daytime-weather-link">
+                Daytime
+            </a>
+        </footer>
+        <script src="src/index.js"></script>
     </div>
-    <footer>
-        <a href="https://github.com/ASV185/my-weather-app-project">Open-source code </a>by Amanda Ventura
+</div>
+    <footer class="coder">
+        <a href="https://github.com/ASV185/my-weather-app-project" class="open-sourced-link">Open-source code </a>by Amanda Ventura
     </footer>
 </body>    
 </html>
