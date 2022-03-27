@@ -7,7 +7,6 @@
   max-width: 600px;
   background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
   padding: 20px 20px;
-  position: static;
   border-radius: 1rem;
   margin: 20px auto;
 }
@@ -15,7 +14,6 @@
 form {
   top: 20px;
   padding: 0.5rem;
-  position: static;
   font-weight: 50px;
   text-align: center;
 }
@@ -42,7 +40,6 @@ li {
   font-size: 1rem;
   font-family: "Roboto Slab", serif;
   opacity: 1;
-  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -54,7 +51,6 @@ li {
   bottom: 30px;
   font-family: "Roboto Slab", serif;
   opacity: 1;
-  position: static;
   border: none;
   text-shadow: 2px 2px 2px black;
 }
@@ -70,7 +66,6 @@ li {
   font-family: "Roboto Slab", serif;
   opacity: 1;
   text-transform: capitalize;
-  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -81,7 +76,6 @@ li {
   font-size: 1rem;
   opacity: 1;
   font-weight: bold;
-  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -92,7 +86,6 @@ li {
   font-size: 1rem;
   opacity: 1;
   font-weight: bold;
-  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -105,7 +98,6 @@ li {
   font-family: "Roboto Slab", serif;
   font-weight: bold;
   opacity: 1;
-  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -118,7 +110,6 @@ li {
   font-family: "Roboto Slab", serif;
   font-weight: bold;
   opacity: 1;
-  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -129,7 +120,6 @@ li {
   font-size: 2rem;
   font-weight: bold;
   color: white;
-  position: static;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -154,7 +144,6 @@ li {
   text-decoration: none;
   text-shadow: 2px 2px 2px black;
   text-align: left;
-  position: static;
 }
 
 .open-sourced-link {
@@ -163,7 +152,6 @@ li {
   font-weight: bold;
   text-align: center;
   font-size: 1rem;
-  position: static;
 }
 
 .coder {
