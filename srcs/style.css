@@ -155,6 +155,10 @@ img {
   text-shadow: 2px 2px 2px black;
 }
 
+.daytime-weather-link:hover {
+  color: #ffffff;
+}
+
 .open-sourced-link {
   font-family: "Roboto Slab", serif;
   color: black;

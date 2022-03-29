@@ -139,6 +139,10 @@ img {
   text-align: left;
 }
 
+.nighttime-weather-link:hover {
+  color: #ffffff;
+}
+
 .open-sourced-link {
   font-family: "Roboto Slab", serif;
   color: black;
