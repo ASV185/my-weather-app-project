@@ -84,6 +84,10 @@ li {
   text-shadow: 2px 2px 2px black;
 }
 
+img {
+  padding-inline: 13rem;
+}
+
 .time {
   margin: 0;
   color: white;
@@ -168,4 +172,10 @@ li {
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
+}
+
+@media (max-width: 420px) {
+  img {
+    padding-inline: 5rem;
+  }
 }
