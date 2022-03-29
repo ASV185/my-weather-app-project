@@ -16,9 +16,9 @@
     #49a09d,
     #5f2c82
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 20px 20px;
-  border-radius: 20px;
-  margin: 20px auto;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  margin: 1rem auto;
 }
 
 .open-sourced-link {
@@ -30,7 +30,7 @@
 }
 
 form {
-  top: 20px;
+  top: 1rem;
   padding: 0.5rem;
   font-weight: 50px;
   text-align: center;
@@ -53,7 +53,7 @@ li {
 .humidity {
   color: #ffffff;
   text-align: center;
-  margin: 10px;
+  margin: 0.5rem;
   font-size: 1rem;
   font-family: "Roboto Slab", serif;
   opacity: 1;
@@ -61,7 +61,6 @@ li {
 }
 
 .wind {
-  margin: 0;
   color: #ffffff;
   text-align: center;
   margin: 10px;
@@ -76,7 +75,7 @@ li {
   margin: 0;
   color: #ffffff;
   text-align: center;
-  margin: 20px;
+  margin: 1rem;
   font-size: 2rem;
   font-family: "Roboto Slab", serif;
   opacity: 1;
@@ -89,7 +88,6 @@ img {
 }
 
 .time {
-  margin: 0;
   color: white;
   font-family: "Roboto Slab", serif;
   text-align: center;
@@ -100,7 +98,6 @@ img {
 }
 
 .date {
-  margin: 0;
   color: white;
   font-family: "Roboto Slab", serif;
   text-align: center;

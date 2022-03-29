@@ -6,13 +6,13 @@
 .container-fluid .weather-app {
   max-width: 600px;
   background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
-  padding: 20px 20px;
+  padding: 1rem 1rem;
   border-radius: 1rem;
-  margin: 20px auto;
+  margin: 1rem auto;
 }
 
 form {
-  top: 20px;
+  top: 1rem;
   padding: 0.5rem;
   font-weight: 50px;
   text-align: center;
@@ -48,7 +48,6 @@ li {
   color: white;
   margin: 0.5rem;
   font-size: 1rem;
-  bottom: 30px;
   font-family: "Roboto Slab", serif;
   opacity: 1;
   border: none;
@@ -62,7 +61,6 @@ li {
   text-align: center;
   margin: 1rem;
   font-size: 2rem;
-  bottom: 30px;
   font-family: "Roboto Slab", serif;
   opacity: 1;
   text-transform: capitalize;
