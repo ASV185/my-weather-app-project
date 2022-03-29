@@ -69,6 +69,10 @@ li {
   text-shadow: 2px 2px 2px black;
 }
 
+img {
+  padding-inline: 13rem;
+}
+
 .time {
   color: #ffffff;
   font-family: "Roboto Slab", serif;
@@ -113,20 +117,11 @@ li {
   text-shadow: 2px 2px 2px black;
 }
 
-.container span button {
-  display: block;
-  font-family: "Roboto Slab", serif;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 2px black;
-}
-
 .weather-app .active {
   color: white;
   text-shadow: 2px 2px 2px black;
   cursor: default;
+  text-decoration: none;
 }
 
 .weather-app .fahrenheit-link {
@@ -149,7 +144,7 @@ li {
 .open-sourced-link {
   font-family: "Roboto Slab", serif;
   color: black;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
   font-size: 1rem;
 }
@@ -159,4 +154,11 @@ li {
   color: black;
   text-align: center;
   font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 420px) {
+  img {
+    padding-inline: 5rem;
+  }
 }
